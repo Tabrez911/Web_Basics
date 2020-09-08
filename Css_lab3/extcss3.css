@@ -1,0 +1,26 @@
+
+
+
+	/*HTML Lab 3 (3.2.2)*/
+	*{color:coral;}
+	
+	/*HTML Lab 3 (3.2.3)*/
+	h1{color: yellowgreen;}
+	
+	/*HTML Lab 3 (3.2.6) & HTML Lab 3(3.2.4)*/ 
+	.div_class{font-weight:bold; font-size: 24px;}
+	
+	/*HTML Lab 3 (3.2.4)*/
+	#d1{color: blue;}
+	
+	/*HTML Lab 3 (3.2.4)*/
+	#d2{color: crimson;}
+
+	
+	.para_class{font-family: arial; font-style:italic;}
+	
+	#p1{color: violet;}
+	
+	#p2{color:green;}
+	
+	#p3{font-size:22px; font-family:times new roman !important;}
