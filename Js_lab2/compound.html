@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>calculate compound interest</title>
+</head>
+<body>
+
+ <script>
+ 		var principal=1000;
+ 		var period_Yrs=1;
+ 		var rate_interest=10;
+
+ 		var result=(principal*(Math.pow((1+(rate_interest/100)),period_Yrs)))-principal;
+
+ 		document.write("----------------------------------------------------"+"<br>");
+ 		document.write("*****Calculate compound interesr*****"+"<br>");
+ 		document.write("----------------------------------------------------"+"<br>");
+
+ 		
+ 		
+
+ 		document.write("Principle  :"+principal+" rs<br>");
+	document.write("Rate of interest is: "+rate_interest+ "%<br>");
+	document.write("Period in years: "+period_Yrs+ " yr<br>");
+	document.write("Compound Interest: "+result);
+		
+			
+			
+		
+
+
+
+ </script>
+
+</body>
+</html>
