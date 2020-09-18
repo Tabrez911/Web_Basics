@@ -1,0 +1,29 @@
+
+<html>
+<head>
+	<title> Working with date</title>
+</head>
+<body>
+  <script>
+  var d=new Date();
+  document.write(d+"<br>");
+  
+ var hr=d.getHours();
+
+
+if(hr<12){
+	document.write("Good morning");
+}
+else if((hr>=12) && (hr<=17) ){
+	document.write("Good afternoon");
+
+}
+else{
+	document.write("good evening");
+}
+
+
+
+  </script>
+</body>
+</html>
