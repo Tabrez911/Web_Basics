@@ -1,0 +1,38 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Location Object Properties</title>
+	</head>
+	<style>
+		table{
+			border-width:thick;
+		}
+	</style>
+	<body>
+		<table border="1" cellspacing="4" bordercolor="blue" width="300px" height="200px">
+			<tbody>
+				<tr>
+					<td colspan="2"><b><center>Location object properties</center></b></td>
+				</tr>
+				<tr>
+					<td>href</td>
+					<td id="ref"></td>
+				</tr>
+				<tr>
+					<td>pathname</td>
+					<td id="path"></td>
+				</tr>
+				<tr>
+					<td>protocol</td>
+					<td id="prot"></td>
+				</tr>
+			</tbody>
+		</table>
+		<script>
+			document.getElementById("ref").innerHTML=window.location.href;
+			document.getElementById("path").innerHTML=window.location.pathname;
+			document.getElementById("prot").innerHTML=window.location.protocol;
+		</script>
+	</body>
+</html>
