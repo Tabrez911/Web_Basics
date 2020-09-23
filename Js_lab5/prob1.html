@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>window example</title>
+
+	<script>
+		function nwindow(){
+			var width=document.getElementById("width").value;
+			var height=document.getElementById("height").value;
+			var top=document.getElementById("top").value;
+			var left=document.getElementById("left").value;
+			window.open("prob2.html","_blank","width","height","top","left");
+			
+		}
+	</script>
+</head>
+<body>
+
+		<form id="frmlab"  onsubmit="nwindow()">
+			<table border="1" cellspacing="8" bordercolor="blue">
+				<tbody>
+					<tr>
+						<td colspan="4"><b><center>create new window</center></b></td>
+						
+					</tr>
+
+					<tr>
+						<td colspan="4"><b><center>window size</center></b></td>
+					</tr>
+
+					<tr>
+						<td>Width</td>
+						<td><input type="text" name="width" id="width" style="width:50px"  pattern="[0-9]{3}" required/></td>
+						<td>Height</td>
+						<td> <input type="text" id="height" style="height:50px"  pattern="[0-9]{3}" required /></td>
+					</tr>
+
+					<tr>
+						<td colspan="4"><center>POSITION</center></td>
+					</tr>
+					<tr>
+						<td>Left</td>
+						<td><input type="digits"  id="left" style="width:50px"  pattern="[0-9]{3}" required/></td>
+						<td>Top</td>
+						<td><input type="digits"  id="top" style="width:50px"  pattern="[0-9]{3}" required/></td>
+					</tr>
+					<tr>
+						<td colspan="3"><center><input type="submit" value="New Window"></center></td>
+						<td><center><input type="reset" value="Reset"></center></td>
+					</tr>
+				</tbody>
+				
+			</table>
+			
+		</form>
+</body>
+</html>
