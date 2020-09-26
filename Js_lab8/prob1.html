@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>L8 Payment Info</title>
+</head>
+<style type="text/css">
+	form{
+		border-color: blue;
+		border: 1px;
+	}
+
+	#A,#B,#C{
+		text-align: left;
+	}
+</style>
+<body>
+
+	<form onsubmit="return calculatePayment();">
+
+	<b>Enter Loan Information</b><br><br>
+
+	<label for="A" > 1. Amount of the loan </label>
+	<input type="number" id="A" min="1" max="1500000"/>
+	<br>
+	<br>
+
+		<label for="B"> 2. Annual percentage rate of interest </label>
+	<input type="number" id="B"/> 
+	<br>
+	<br>
+
+		<label for="C"> 3. Repayment period in years </label>
+	<input type="number" id="C" min="7" max="15"/>
+	<br>
+	<br>
+
+	<input type="submit" value="compute"/>
+	<br>
+	<br>
+	<br>
+	<b>Payment Information</b>
+	<br>
+	<br>
+
+	<label for="D"> 5. Your monthly payment will be </label>
+	<input type="number" id="D" readonly/>
+	<br>
+	<br>
+	<label for="E"> 6. Your total payment will be </label>
+	<input type="number" id="D" readonly/>
+	<br>
+	<br>
+
+
+</body>
+</html>
