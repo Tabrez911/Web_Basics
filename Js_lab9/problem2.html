@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+
+  <script src="problem2.js">
+	
+  </script>
+ </head>
+ <body>
+	<form id="myform" onsubmit="display();">
+		<table align="center">
+		<tr>
+			<td>
+				<label id="lname" value="Name"> Name</label>
+			</td>
+			<td>
+				<input type="text" id="fname" placeholder="Name" required min="3" max="10"/>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<label> Date of Birth</label>
+			</td>
+			<td>
+				<input type="date" id="dob" placeholder="Date" required/>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<label> Phone number</label>
+			</td>
+			<td>
+				<input type="tel" id="phone" name="phone"placeholder="XXX-XXX-XXXX" pattern="[7,8,9][0-9]{9}"  minlength="10" title="10 digits" required/>
+			</td>
+		</tr>
+
+		<tr>
+			<td > 
+				<label>Email: </label>
+			</td>
+			<td>
+				<input type="email" id="emaildata" name="email" required>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<label id="glevel" name="glevel">Graduation Level</label>
+			</td>
+			<td>
+				<div id="grlevel" onchange="graduation()">
+					<input type="radio" id="grlevel" name="graduation" value="UG">
+					<label for="UG">UG</label>
+					<input type="radio" id="grlevel" name="graduation" value="PG">
+					<label for="PG">PG</label><br>
+				</div>
+			</td>
+
+		</tr>
+		<tr>
+			<td>
+			<label id="qualification" name="qualification">Qualification</label>
+			</td>
+			<td>
+				<div id="output">
+					<select id="qualify">
+						<option> Select option</option>
+					</select>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td><input type="submit" value="Submit"></td>
+			<td><input type="reset" value="Preview"></td>
+		</tr>
+	</table>
+	</form>
+ </body>
+</html>
