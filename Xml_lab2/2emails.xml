@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<email 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="2email1s.xsd">
+		
+		<data>
+			<to>  To: 	xyz@gmail.com</to>
+			<from>From: abc@gmail.com</from>
+			<CC>  CC: 	123@gmail.com</CC>
+			<Bcc> BCC: 	shh@gmail.com</Bcc>
+			<sub> Subject: Party call</sub>
+			<body>Body: Party at my place this weekend at 2000 hrs!!</body>
+		</data>
+
+</email>

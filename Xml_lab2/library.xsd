@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+
+<!-- SIMPLE ELEMENTS -->
+	 
+	
+	<xs:element name="Title" type="xs:string"/>
+	<xs:element name="Author" type="xs:string"/>
+	<xs:element name="Publisher" type="xs:string"/>
+	<xs:element name="Cover" type="xs:string"/>
+	<xs:element name="Category" type="xs:string"/>
+	<xs:element name="ISBN" type="xs:string"/>
+	<xs:element name="Rating" type="xs:positiveInteger"/>
+	<xs:element name="Price" type="xs:decimal"/>
+	<xs:element name="Comments" type="xs:string"/>
+	
+	<xs:attribute name="cover_type" type="xs:string"/>
+	<xs:attribute name="cat_type" type="xs:string"/>
+	<xs:attribute name="isbn_num" type="xs:string"/>
+	<xs:attribute name="rate_val" type="xs:positiveInteger"/>
+	
+	
+
+<!-- COMPLEX ELEMENTS -->
+
+	<xs:element name="Book">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Title"/>
+				<xs:element ref="Author"/>
+				<xs:element ref="Publisher"/>
+				<xs:element ref="Cover"/>
+				<xs:element ref="Category"/>
+				<xs:element ref="ISBN"/>
+				<xs:element ref="Rating"/>
+				<xs:element ref="Price"/>
+				<xs:element ref="Comments"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	
+	<xs:element name="library">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Book"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+</xs:schema>

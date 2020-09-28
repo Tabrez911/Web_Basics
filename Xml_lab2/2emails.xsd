@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="to" type="xs:string"/>
+<xs:element name="from" type="xs:string"/>
+<xs:element name="CC" type="xs:string"/>
+<xs:element name="Bcc" type="xs:string"/> 
+<xs:element name="sub" type="xs:string"/>
+<xs:element name="body" type="xs:string"/> 
+
+<xs:element name="data">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="to"/>
+			<xs:element	ref="from"/>
+			<xs:element ref="CC"/>
+			<xs:element ref="Bcc"/>
+			<xs:element ref="sub"/>
+			<xs:element ref="body"/>
+			
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+	
+	
+<xs:element name="email">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="data"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+	
+	
+</xs:schema>

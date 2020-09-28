@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<!-- SIMPLE ELEMENTS -->
+
+<xs:element name="empno" type="xs:integer"/>
+<xs:element name="ename" type="xs:string"/>
+<xs:element name="job" type="xs:string"/>
+<xs:element name="mgr" type="xs:integer"/>
+<xs:element name="hiredate" type="xs:date"/>
+<xs:element name="sal" type="xs:integer"/>
+<xs:element name="comm" type="xs:integer"/>
+<xs:element name="deptno" type="xs:string"/>
+
+
+<!-- COMPLEX ELEMENTS -->
+
+<xs:element name="employee">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="empno"/>
+			<xs:element	ref="ename"/>
+			<xs:element ref="job"/>
+			<xs:element ref="mgr"/>
+			<xs:element ref="hiredate"/>
+			<xs:element ref="sal"/>
+			<xs:element ref="comm"/>
+			<xs:element ref="deptno"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+
+<xs:element name="employees">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="employee"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="employee_details">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="employees"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+</xs:schema>
