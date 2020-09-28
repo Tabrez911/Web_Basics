@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<employee_details>
+	<employee1>
+		<emp_code>1111</emp_code>
+		<emp_name>
+			<first_name>Seema</first_name>
+			<last_name>Dalvi</last_name>
+		</emp_name>
+		<doj>09/08/97</doj>
+		<tot_exp>12</tot_exp>
+		<dept>
+			<unit>3d</unit>
+			<loc>Mumbai</loc>
+		</dept>
+		<designation>
+			<_1>" "</_1>
+			<_2>" "</_2>
+			<_3>" "</_3>
+			<_4>*</_4>
+			<_5>" "</_5>
+		</designation>
+		<sal>21000</sal>
+		<grade>
+			<a>" "</a>
+			<b>*</b>
+			<c>" "</c>
+			<d>" "</d>
+		</grade>
+	</employee1>
+	
+	<employee2>
+			<emp_code>2222</emp_code>
+			<emp_name>
+				<first_name>Bharati</first_name>
+				<last_name>Mantri</last_name>
+			</emp_name>
+			<doj>12/01/99</doj>
+			<tot_exp>5</tot_exp>
+			<dept>
+				<unit>4a</unit>
+				<loc>Pune</loc>
+			</dept>
+			<designation>
+				<_1>" "</_1>
+				<_2>*</_2>
+				<_3>" "</_3>
+				<_4>" "</_4>
+				<_5>" "</_5>
+			</designation>
+			<sal>12000</sal>
+			<grade>
+				<a>*</a>
+				<b>" "</b>
+				<c>" "</c>
+				<d>" "</d>
+			</grade>
+	</employee2>
+
+</employee_details>
