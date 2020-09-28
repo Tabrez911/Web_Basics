@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<employee_details>
+	<employees>
+		<employee1>
+			<empno>7369</empno>
+			<ename>SMITH</ename>
+			<job>CLERK</job>
+			<mgr>7902</mgr>
+			<hiredate>17-DEC-80</hiredate>
+			<sal>1100</sal>
+			<comm>200</comm>
+			<deptno>20</deptno>
+		</employee1>
+	  
+		<employee2>
+			<empno>7499</empno>
+			<ename>ALLEN</ename>
+			<job>SALESMAN</job>
+			<mgr>7698</mgr>
+			<hiredate>20-FEB-1981</hiredate>
+			<sal>1200</sal>
+			<comm>24820</comm>
+			<deptno>30</deptno>
+		</employee2>
+	  
+		<employee3>
+			<empno>7521</empno>
+			<ename>WARD</ename>
+			<job>SALESMAN</job>
+			<mgr>7698</mgr>
+			<hiredate>22-FEB-1981</hiredate>
+			<sal>1375</sal>
+			<comm>19700</comm>
+			<deptno>30</deptno>
+		</employee3>
+	  
+		<employee4>
+			<empno>7566</empno>
+			<ename>JONES</ename>
+			<job>MANAGER</job>
+			<mgr>7839</mgr>
+			<hiredate>02-APR-1981</hiredate>
+			<sal>3175</sal>
+			<comm>" "</comm>
+			<deptno>20</deptno>
+		</employee4>
+	  
+		<employee5>
+			<empno>7654</empno>
+			<ename>MARTIN</ename>
+			<job>SALESMAN</job>
+			<mgr>7698</mgr>
+			<hiredate>28-SEP-1981</hiredate>
+			<sal>1375</sal>
+			<comm>20600</comm>
+			<deptno>30</deptno>
+		</employee5>
+	  
+		<employee6>
+			<empno>7698</empno>
+			<ename>BLAKE</ename>
+			<job>MANAGER</job>
+			<mgr>7839</mgr>
+			<hiredate>01-MAY-1981</hiredate>
+			<sal>2850</sal>
+			<comm>" "</comm>
+			<deptno>30</deptno>
+		</employee6>
+	  
+		<employee7>
+			<empno>7782</empno>
+			<ename>CLARK</ename>
+			<job>MANAGER</job>
+			<mgr>7839</mgr>
+			<hiredate>09-JUN-1981</hiredate>
+			<sal>2450</sal>
+			<comm>" "</comm>
+			<deptno>30</deptno>
+		</employee7>
+		
+		<employee8>
+			<empno>7788</empno>
+			<ename>SCOTT</ename>
+			<job>ANALYST</job>
+			<mgr>7566</mgr>
+			<hiredate>19-APR-1987</hiredate>
+			<sal>2000</sal>
+			<comm>" "</comm>
+			<deptno>20</deptno>
+		</employee8>
+		
+		<employee9>
+			<empno>7839</empno>
+			<ename>KING</ename>
+			<job>PRESIDENT</job>
+			<mgr>" "</mgr>
+			<hiredate>17-NOV-1981</hiredate>
+			<sal>5000</sal>
+			<comm>" "</comm>
+			<deptno>10</deptno>
+		</employee9>
+		
+		<employee10>
+			<empno>7844</empno>
+			<ename>TURNER</ename>
+			<job>SALESMAN</job>
+			<mgr>7698</mgr>
+			<hiredate>08-SEP-1981</hiredate>
+			<sal>1650</sal>
+			<comm>23000</comm>
+			<deptno>30</deptno>
+		</employee10>
+		
+		<employee11>
+			<empno>7876</empno>
+			<ename>ADAMS</ename>
+			<job>CLERK</job>
+			<mgr>7788</mgr>
+			<hiredate>23-MAY-1987</hiredate>
+			<sal>1430</sal>
+			<comm>200</comm>
+			<deptno>20</deptno>
+		</employee11>
+		
+		<employee12>
+			<empno>7900</empno>
+			<ename>JAMES</ename>
+			<job>CLERK</job>
+			<mgr>7698</mgr>
+			<hiredate>03-DEC-1981</hiredate>
+			<sal>1045</sal>
+			<comm>200</comm>
+			<deptno>30</deptno>
+		</employee12>
+	  
+		<employee13>
+			<empno>7902</empno>
+			<ename>FORD</ename>
+			<job>ANALYST</job>
+			<mgr>7566</mgr>
+			<hiredate>03-DEC-1981</hiredate>
+			<sal>3200</sal>
+			<comm>" "</comm>
+			<deptno>20</deptno>
+		</employee13>
+		
+		<employee14>
+			<empno>7934</empno>
+			<ename>MILLER</ename>
+			<job>CLERK</job>
+			<mgr>7782</mgr>
+			<hiredate>23-JAN-1982</hiredate>
+			<sal>1430</sal>
+			<comm>200</comm>
+			<deptno>10</deptno>
+		</employee14>
+	  
+	</employees>
+</employee_details>
